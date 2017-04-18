@@ -6,7 +6,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
-  "homepage": "https://amoicons.github.io",
+  "homepage": "https://amoicons.github.io/site",
   "devDependencies": {
     "amoicons": "^0.0.4",
     "gh-pages": "^0.12.0",
