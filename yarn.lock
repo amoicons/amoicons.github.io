@@ -68,9 +68,9 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-amoicons@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/amoicons/-/amoicons-0.0.4.tgz#b29ee34a5d0651fb1c573161ef3cba0c215d7c76"
+amoicons@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/amoicons/-/amoicons-0.0.6.tgz#75d4be21c49d45d760f44309e31200fe0f5daa1d"
 
 ansi-escapes@^1.1.0, ansi-escapes@^1.4.0:
   version "1.4.0"

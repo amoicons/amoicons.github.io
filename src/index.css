@@ -9,3 +9,19 @@ h1 {
   font-size: 24px;
   font-weight: bold;
 }
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.icon-block {
+  width: 10%;
+  min-width: 100px;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  padding: 1em;
+  text-align: center;
+}
+

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Icon from './Icon';
+import Amoicons from 'amoicons';
+
 const files = require.context(
   '!svg-sprite!../node_modules/amoicons/build/svg',
   false,
   /.*\.svg$/
 );
 files.keys().forEach(files);
-import Amoicons from 'amoicons';
 
 class App extends Component {
   render() {
-    console.log(Amoicons);
     return (
       <div>
         <div className="header">
@@ -19,9 +19,17 @@ class App extends Component {
         <div className="intro">
           <p>A set of carefully designed and engineered icons.</p>
         </div>
-        {Object.keys(Amoicons).map((file, index) => {
-          return <Icon type={file} key={index} />;
-        })}
+        <section className="section">
+          {Object.keys(Amoicons).map((file, index) => (
+            <div className="icon-block" key={index}>
+              <Icon
+                type={file}
+                height={Amoicons[file].height}
+                width={Amoicons[file].width}
+              />
+            </div>
+          ))}
+        </section>
       </div>
     );
   }
